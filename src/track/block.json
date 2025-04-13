@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "drum-n-berg/track",
+	"parent": [ "drum-n-berg/drum-machine" ],
+	"version": "0.1.0",
+	"title": "Drum'n'Berg Track",
+	"category": "media",
+	"description": "A Drum'n'Berg track.",
+	"example": {},
+	"attributes": {
+		"name": {
+			"type": "string",
+			"default": "Track"
+		},
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"isPlayingOnBeat": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"textdomain": "drum-n-berg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

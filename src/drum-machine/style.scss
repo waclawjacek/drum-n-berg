@@ -1,0 +1,41 @@
+/**
+ * The following styles get applied both on the front-end
+ * and in the editor.
+ */
+
+.drum-n-berg {
+	.drum-n-berg__grid {
+		display: grid;
+		grid-template-columns: 100px repeat(16, 1fr);
+		gap: 2px;
+		overflow-x: scroll;
+
+		.block-editor-inner-blocks {
+			display: grid;
+			grid-template-columns: subgrid;
+			grid-column: 1 / -1;
+
+			.block-editor-block-list__layout {
+				display: grid;
+				grid-template-columns: subgrid;
+				grid-column: 1 / -1;
+				padding-bottom: 30px;
+			}
+		}
+	}
+
+	.drum-n-berg__player-buttons {
+		display: flex;
+		gap: 10px;
+		margin-bottom: 10px;
+		align-items: center;
+	}
+
+	.drum-n-berg__bar-headers {
+		font-weight: bold;
+		font-size: 0.8rem;
+		padding: 2px 3px;
+		background-color: #e0e0e0;
+		text-align: left;
+	}
+}

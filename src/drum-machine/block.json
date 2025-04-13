@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "drum-n-berg/drum-machine",
+	"version": "0.1.0",
+	"title": "Drum'n'Berg",
+	"category": "media",
+	"description": "A drum machine block for WordPress.",
+	"example": {},
+	"attributes": {
+		"bpm": {
+			"type": "number",
+			"default": 120
+		}
+	},
+	"textdomain": "drum-n-berg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
