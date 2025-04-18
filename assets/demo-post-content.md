@@ -7,15 +7,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:drum-n-berg/drum-machine {"bpm":180} -->
-<div class="wp-block-drum-n-berg-drum-machine"><!-- wp:drum-n-berg/track {"name":"Kick","url":"http://localhost:8888/wp-content/plugins/drum-n-berg/build/assets/samples/kick.wav","isPlayingOnBeat":[true,null,null,null,true,true,null,null,true,null,null,null,true,true,null,true]} -->
+<div class="wp-block-drum-n-berg-drum-machine"><!-- wp:drum-n-berg/track {"name":"Kick","url":"/wp-content/plugins/drum-n-berg/build/assets/samples/kick.wav","isPlayingOnBeat":[true,null,null,null,true,true,null,null,true,null,null,null,true,true,null,true]} -->
 <div class="wp-block-drum-n-berg-track"></div>
 <!-- /wp:drum-n-berg/track -->
 
-<!-- wp:drum-n-berg/track {"name":"Hi-Hat","url":"http://localhost:8888/wp-content/plugins/drum-n-berg/build/assets/samples/hihat.wav","isPlayingOnBeat":[null,true,null,true,null,true,null,true,null,null,null,true,null,true,null,true]} -->
+<!-- wp:drum-n-berg/track {"name":"Hi-Hat","url":"/wp-content/plugins/drum-n-berg/build/assets/samples/hihat.wav","isPlayingOnBeat":[null,true,null,true,null,true,null,true,null,null,null,true,null,true,null,true]} -->
 <div class="wp-block-drum-n-berg-track"></div>
 <!-- /wp:drum-n-berg/track -->
 
-<!-- wp:drum-n-berg/track {"name":"Snare","url":"http://localhost:8888/wp-content/plugins/drum-n-berg/build/assets/samples/snare.wav","isPlayingOnBeat":[null,null,true,null,null,null,true,null,null,null,true,null,null,null,true,false]} -->
+<!-- wp:drum-n-berg/track {"name":"Snare","url":"/wp-content/plugins/drum-n-berg/build/assets/samples/snare.wav","isPlayingOnBeat":[null,null,true,null,null,null,true,null,null,null,true,null,null,null,true,false]} -->
 <div class="wp-block-drum-n-berg-track"></div>
 <!-- /wp:drum-n-berg/track --></div>
 <!-- /wp:drum-n-berg/drum-machine -->
