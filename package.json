@@ -24,6 +24,7 @@
 		"@wordpress/block-editor": "^14.17.0",
 		"@wordpress/blocks": "^14.11.0",
 		"@wordpress/data": "^10.22.0",
+		"@wordpress/env": "^10.22.0",
 		"@wordpress/i18n": "^5.22.0",
 		"@wordpress/prettier-config": "^4.22.0",
 		"@wordpress/scripts": "^30.14.1",
