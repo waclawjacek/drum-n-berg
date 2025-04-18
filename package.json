@@ -5,6 +5,7 @@
 	"author": "Wacław Jacek <waclawjacek@gmail.com>",
 	"license": "GPL-3.0-or-later",
 	"main": "build/index.js",
+	"prettier": "@wordpress/prettier-config",
 	"scripts": {
 		"build": "wp-scripts build --webpack-copy-php --blocks-manifest",
 		"format": "wp-scripts format",
@@ -24,8 +25,10 @@
 		"@wordpress/blocks": "^14.11.0",
 		"@wordpress/data": "^10.22.0",
 		"@wordpress/i18n": "^5.22.0",
+		"@wordpress/prettier-config": "^4.22.0",
 		"@wordpress/scripts": "^30.14.1",
 		"copy-webpack-plugin": "^13.0.0",
+		"prettier": "npm:wp-prettier@^3.0.3",
 		"typescript": "^5.8.3"
 	},
 	"dependencies": {
